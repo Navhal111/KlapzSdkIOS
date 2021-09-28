@@ -1,15 +1,17 @@
-public class Klapz_Sdk {
+import Foundation
+
+public final class Klapz_Sdk {
     public var text = "Hello, World!"
     
-    public init() {
+    public init(KlapzConfig: [String: Any]) {
       
     }
     
     
-    public func startKlapz(KlapzConfig: [String: Any]) {
+    @objc public func startKlapz(KlapzConfig: [String: Any]) {
     
     }
     
-    public func Close() {
+    @objc public func Close() {
     }
 }
