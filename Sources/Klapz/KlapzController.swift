@@ -13,9 +13,9 @@ public final class KlapzController: UIViewController {
   private let viewModel = ViewModel()
   private let mainView = View()
 //  public var KlapbConfig: [String: Any]
-  public var KlapbConfignew: [String: Any]
+//  public var KlapbConfignew: [String: Any]
   public init (KlapbConfig: [String: Any]){
-    KlapbConfignew = KlapbConfig
+//    KlapbConfignew = KlapbConfig
     
     super.init(nibName: nil, bundle: nil)
   }
