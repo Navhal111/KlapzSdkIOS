@@ -14,7 +14,7 @@ public final class KlapzController: UIViewController {
   private let mainView = View()
   public let KlapbConfig: [String: Any]
   
-  init (KlapbConfig: [String: Any]){
+  public init (KlapbConfig: [String: Any]){
     self.KlapbConfig = KlapbConfig
     super.init(nibName: nil, bundle: nil)
   }
@@ -49,7 +49,7 @@ public final class KlapzController: UIViewController {
     present(controller, animated: true, completion: nil)
   }
     
-    @objc func StartKlapz() {
+@objc public func StartKlapz() {
       let controller = BottomSheetViewController(contentView: ExampleBottomSheetView())
       controller.sheetCornerRadius = 32
       controller.sheetSizingStyle = .toSafeAreaTop
@@ -58,7 +58,7 @@ public final class KlapzController: UIViewController {
       present(controller, animated: true, completion: nil)
     }
   
-  @objc func didSelectSegmentedItem(_ sender: UISegmentedControl) {
+  @objc public func didSelectSegmentedItem(_ sender: UISegmentedControl) {
     if sender === mainView.sheetSizingStylePicker {
       viewModel.selectedSheetSizingStyle = viewModel.sheetSizingItems[mainView.sheetSizingStylePicker.selectedSegmentIndex].style
       return
