@@ -14,11 +14,11 @@ public final class KlapzController: UIViewController {
   private let mainView = View()
 //  public var KlapbConfig: [String: Any]
 //  public var KlapbConfignew: [String: Any]
-  public init (KlapbConfig: [String: Any]){
-//    KlapbConfignew = KlapbConfig
-    
-    super.init(nibName: nil, bundle: nil)
-  }
+//  public init (KlapbConfig: [String: Any]){
+////    KlapbConfignew = KlapbConfig
+//
+//    super.init(nibName: nil, bundle: nil)
+//  }
     @available(*, unavailable)
      required init?(coder: NSCoder) {
          fatalError("This class does not support NSCoder")
