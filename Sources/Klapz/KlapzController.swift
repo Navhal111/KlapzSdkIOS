@@ -15,7 +15,7 @@ public final class KlapzController: UIViewController {
   public var KlapbConfig: [String: Any]
   
   public init (KlapbConfig: [String: Any]){
-    self.KlapbConfig = KlapbConfig
+//    self.KlapbConfig = KlapbConfig
     super.init(nibName: nil, bundle: nil)
   }
     @available(*, unavailable)
