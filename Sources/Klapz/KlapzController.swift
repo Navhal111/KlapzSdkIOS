@@ -12,7 +12,7 @@ public final class KlapzController: UIViewController {
   
   private let viewModel = ViewModel()
   private let mainView = View()
-public let KlapbConfig: [String: Any]
+  public let KlapbConfig: [String: Any]
   
   init (KlapbConfig: [String: Any]){
     self.KlapbConfig = KlapbConfig
