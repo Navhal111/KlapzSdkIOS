@@ -12,10 +12,11 @@ public final class KlapzController: UIViewController {
   
   private let viewModel = ViewModel()
   private let mainView = View()
-  public var KlapbConfig: [String: Any]
-  
+//  public var KlapbConfig: [String: Any]
+  public var KlapbConfignew: [String: Any]
   public init (KlapbConfig: [String: Any]){
-//    self.KlapbConfig = KlapbConfig
+    KlapbConfignew = KlapbConfig
+    
     super.init(nibName: nil, bundle: nil)
   }
     @available(*, unavailable)
